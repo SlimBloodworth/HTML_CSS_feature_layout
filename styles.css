@@ -43,9 +43,18 @@ p {
 
 /*Utility*/
 
+.hero {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .hero-lead-in-txt {
     font-weight: var(--fwght-lt);
 }
+
+
+/*cards*/
 
 .card-super {
     border-top: 2px solid var(--primary-cyan);
