@@ -125,3 +125,22 @@ p {
     color: var(--primary-orange);
     transition: 250ms ease-in-out;
 }
+
+.footer__social-container {
+    display: inline-block;
+}
+
+.footer__social-icons {
+    margin: 0 25px 0 25px;
+    text-decoration: none;
+}
+
+.social-svg:hover path {
+    fill: var(--primary-orange);
+    transition: 250ms ease-in-out;
+}
+
+.social-svg:hover {
+    transform: scale(1.5);
+    transition: 250ms ease-in-out;
+}
