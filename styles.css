@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors - Primary */
+    --primary-red: hsl(0, 78%, 62%);
+    --primary-cyan: hsl(180, 62%, 55%);
+    --primary-orange: hsl(34, 97%, 64%);
+    --primary-blue: hsl(212, 86%, 64%);
+    /* Colors - Neutral */
+    --neutral-dk-blue: hsl(234, 12%, 34%);
+    --neutral-gray-blue: hsl(229, 6%, 66%);
+    --neutral-lt-gray: hsl(0, 0%, 98%);
+    /* Typography */
+    --fwght-lt: 200;
+    --fwght-md: 400;
+    --fwght-bld: 600;
+}
+
+body {
+    font-size: 0.93rem;
+    font-family: 'Poppins', sans-serif;
+}
