@@ -20,7 +20,45 @@
     --fwght-bld: 600;
 }
 
+
+/*Global*/
+
 body {
     font-size: 0.93rem;
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: var(--fwght-bld);
+}
+
+h2 {
+    font-weight: var(--fwght-md);
+}
+
+p {
+    font-weight: var(--fwght-lt);
+}
+
+
+/*Utility*/
+
+.hero-lead-in-txt {
+    font-weight: var(--fwght-lt);
+}
+
+.card-super {
+    border-top: 2px solid var(--primary-cyan);
+}
+
+.card-team {
+    border-top: 2px solid var(--primary-red);
+}
+
+.card-karma {
+    border-top: 2px solid var(--primary-orange);
+}
+
+.card-calc {
+    border-top: 2px solid var(--primary-blue);
 }
