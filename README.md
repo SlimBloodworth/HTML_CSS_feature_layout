@@ -11,6 +11,7 @@
 - [Author](#author)
 
 ## Overview
+This ia a responsive card feature layout in semantic HTML and CSS.
 
 ### The challenge
 
