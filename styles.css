@@ -72,7 +72,7 @@ p {
 .card {
     width: 300px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 1.5rem;
     box-shadow: 10px 11px 20px 2px var(--neutral-gray-blue);
     /*Testing*/
@@ -93,6 +93,17 @@ p {
 
 .card-calc {
     border-top: 5px solid var(--primary-blue);
+}
+
+.card-text {
+    margin: 1rem 0 0.5rem 1rem;
+}
+
+.card-icon {
+    position: relative;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    left: 10rem;
 }
 
 
