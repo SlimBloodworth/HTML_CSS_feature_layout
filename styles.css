@@ -24,20 +24,29 @@
 /*Global*/
 
 body {
-    font-size: 0.93rem;
+    font-size: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    font-weight: var(--fwght-bld);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
-    font-weight: var(--fwght-md);
+    font-size: 1rem;
+}
+
+h1,
+h2 {
+    font-weight: var(--fwght-bld);
+    color: var(--neutral-dk-blue);
 }
 
 p {
-    font-weight: var(--fwght-lt);
+    font-size: 0.75rem;
+    font-weight: var(--fwght-md);
+    color: var(--neutral-gray-blue);
 }
 
 
@@ -47,27 +56,60 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .hero-lead-in-txt {
-    font-weight: var(--fwght-lt);
+    font-size: 1.2rem;
+    font-weight: var(--fwght-md);
+    color: var(--neutral-gray-blue);
 }
 
 
 /*cards*/
 
+.card {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 1.5rem;
+    /*Testing*/
+    outline: 1px solid limegreen;
+}
+
 .card-super {
-    border-top: 2px solid var(--primary-cyan);
+    border-top: 5px solid var(--primary-cyan);
 }
 
 .card-team {
-    border-top: 2px solid var(--primary-red);
+    border-top: 5px solid var(--primary-red);
 }
 
 .card-karma {
-    border-top: 2px solid var(--primary-orange);
+    border-top: 5px solid var(--primary-orange);
 }
 
 .card-calc {
-    border-top: 2px solid var(--primary-blue);
+    border-top: 5px solid var(--primary-blue);
+}
+
+
+/* footer */
+
+.footer {
+    border-top: 1px solid var(--neutral-gray-blue);
+    text-align: center;
+}
+
+.author-portfolio {
+    font-size: .75rem;
+    text-decoration: none;
+    color: var(--neutral-gray-blue);
+    cursor: pointer;
+}
+
+.author-portfolio:hover {
+    color: var(--primary-orange);
+    transition: 250ms ease-in-out;
 }
