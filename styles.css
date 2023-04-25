@@ -107,6 +107,19 @@ p {
 }
 
 
+/*mobile*/
+
+@media(min-width: 375px) {
+    .main-body {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        position: relative
+    }
+}
+
+
 /* footer */
 
 .footer {
