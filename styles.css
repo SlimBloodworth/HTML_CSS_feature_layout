@@ -74,8 +74,9 @@ p {
     height: 200px;
     border-radius: 10px;
     margin: 1.5rem;
+    box-shadow: 10px 11px 20px 2px var(--neutral-gray-blue);
     /*Testing*/
-    outline: 1px solid limegreen;
+    /* outline: 1px solid limegreen; */
 }
 
 .card-super {
